@@ -124,7 +124,7 @@ await create_ad_campaign(
         "mcp[cli]",
         "mcp",
         "run",
-        "D:\\pinelabs_meta_mcp\\mcp-meta-ads\\server\\meta.py"
+        "path/to/your/mcp-meta-ads/server/meta.py"
       ]
     }
   }
@@ -133,8 +133,7 @@ await create_ad_campaign(
 
 2. Replace the following in the configuration:
 
-   - `D:\\pinelabs_meta_mcp\\mcp-meta-ads\\server\\meta.py`: The absolute path to your MCP server installation
-   - Note: Make sure to use double backslashes (`\\`) in Windows paths
+   - `path/to/your/mcp-meta-ads/server/meta.py`: The absolute path to your MCP server installation
 
 3. Place the configuration file in one of these locations:
 
