@@ -60,8 +60,7 @@ uv pip install -r requirements.txt
      - `ads_read`
      - `read_audience_network_insights`
 
-2. Set up your environment:
-   - Create a `.env` file in the project root
+2. Add your access token in meta.py:
    - Add your Facebook access token:
    ```
    FB_ACCESS_TOKEN=your_access_token_here
